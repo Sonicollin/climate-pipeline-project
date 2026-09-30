@@ -10,9 +10,9 @@ A portfolio project extending the weather-pipeline-project curriculum: a multi-s
 
 ## Data sources
 
-- [ ] **World Bank Indicators API** — CO2 emissions per capita by country (`EN.ATM.CO2E.PC`). Genuine REST/JSON source; requires handling real pagination (unlike the single-response Open-Meteo calls from the last project).
-- [ ] **NOAA Mauna Loa CO2 record** — flat-file time series (the "Keeling Curve"). First file-based (non-REST) extraction pattern.
-- [ ] **NASA GISTEMP** — global temperature anomaly dataset, flat CSV, different structure from NOAA's.
+- [x] **World Bank Indicators API** — CO2 emissions per capita by country (`EN.ATM.CO2E.PC`). Genuine REST/JSON source; requires handling real pagination (unlike the single-response Open-Meteo calls from the last project).
+- [x] **NOAA Mauna Loa CO2 record** — flat-file time series (the "Keeling Curve"). First file-based (non-REST) extraction pattern.
+- [x] **NASA GISTEMP** — global temperature anomaly dataset, flat CSV, different structure from NOAA's.
 - [ ] **NOAA GHCN** — daily station-level temperature data. Large, genuinely messy (missing readings, station changes over time).
 
 ## Validation & modeling
